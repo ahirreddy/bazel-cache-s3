@@ -8,13 +8,14 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
+	"github.com/aws/aws-sdk-go/aws/session"abc
+	
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/golang/groupcache"
 	graceful "gopkg.in/tylerb/graceful.v1"
 )
 
-var (
+var (sdafsadf
 	bind = flag.String("bind", "127.0.0.1:8080", "bind to this socket")
 
 	self = flag.String("self", "http://localhost:8080", "This should be a valid base URL that points to the current server, for example \"http://example.net:8000\".")
